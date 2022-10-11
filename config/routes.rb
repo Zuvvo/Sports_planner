@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     confirmations: 'users/confirmations',
   }
 
+  get 'js_playground', to: "js_playground#index"
   get "about", to: "about#index"
 
 end
